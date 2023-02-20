@@ -1,0 +1,381 @@
+[20:40:39.511] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[20:40:39.540] 200 iterations per epoch. 20000 max iterations 
+[20:43:10.338] iteration : 200  train_loss : 0.314173 train_iou : 0.000000 time : 150  val_iou : 0.000000 val_acc : 0.778125 train_acc : 0.682702
+[20:45:33.216] iteration : 400  train_loss : 0.177125 train_iou : 0.459250 time : 293  val_iou : 0.450000 val_acc : 0.784112 train_acc : 0.695000
+[20:47:57.924] iteration : 600  train_loss : 0.217403 train_iou : 0.570000 time : 438  val_iou : 0.556250 val_acc : 0.863201 train_acc : 0.816401
+[20:50:22.430] iteration : 800  train_loss : 0.177426 train_iou : 0.615500 time : 582  val_iou : 0.568750 val_acc : 0.902698 train_acc : 0.860797
+[20:52:48.317] iteration : 1000  train_loss : 0.133578 train_iou : 0.627500 time : 728  val_iou : 0.568750 val_acc : 0.880049 train_acc : 0.845670
+[20:55:16.410] iteration : 1200  train_loss : 0.091180 train_iou : 0.642750 time : 876  val_iou : 0.600000 val_acc : 0.883729 train_acc : 0.857331
+[20:57:43.404] iteration : 1400  train_loss : 0.069569 train_iou : 0.621500 time : 1023  val_iou : 0.581250 val_acc : 0.873143 train_acc : 0.838757
+[21:00:11.125] iteration : 1600  train_loss : 0.162385 train_iou : 0.617750 time : 1171  val_iou : 0.600000 val_acc : 0.875432 train_acc : 0.849941
+[21:02:35.776] iteration : 1800  train_loss : 0.221909 train_iou : 0.628750 time : 1316  val_iou : 0.581250 val_acc : 0.875704 train_acc : 0.851430
+[21:05:01.152] iteration : 2000  train_loss : 0.227574 train_iou : 0.593000 time : 1461  val_iou : 0.525000 val_acc : 0.901706 train_acc : 0.863158
+[21:07:24.478] iteration : 2200  train_loss : 0.122469 train_iou : 0.638250 time : 1604  val_iou : 0.587500 val_acc : 0.881136 train_acc : 0.858949
+[21:09:47.202] iteration : 2400  train_loss : 0.194239 train_iou : 0.661000 time : 1747  val_iou : 0.600000 val_acc : 0.885485 train_acc : 0.862179
+[21:12:12.256] iteration : 2600  train_loss : 0.156838 train_iou : 0.656750 time : 1892  val_iou : 0.625000 val_acc : 0.886019 train_acc : 0.870507
+[21:14:37.327] iteration : 2800  train_loss : 0.085502 train_iou : 0.668000 time : 2037  val_iou : 0.637500 val_acc : 0.889730 train_acc : 0.875403
+[21:17:00.353] iteration : 3000  train_loss : 0.139205 train_iou : 0.658750 time : 2180  val_iou : 0.606250 val_acc : 0.885765 train_acc : 0.867443
+[21:19:25.038] iteration : 3200  train_loss : 0.095077 train_iou : 0.660750 time : 2325  val_iou : 0.618750 val_acc : 0.903590 train_acc : 0.882832
+[21:21:49.322] iteration : 3400  train_loss : 0.162101 train_iou : 0.658750 time : 2469  val_iou : 0.600000 val_acc : 0.889584 train_acc : 0.872580
+[21:24:13.072] iteration : 3600  train_loss : 0.172562 train_iou : 0.614500 time : 2613  val_iou : 0.581250 val_acc : 0.862521 train_acc : 0.843489
+[21:26:36.792] iteration : 3800  train_loss : 0.091290 train_iou : 0.668500 time : 2757  val_iou : 0.612500 val_acc : 0.881637 train_acc : 0.866284
+[21:29:00.717] iteration : 4000  train_loss : 0.115578 train_iou : 0.674500 time : 2901  val_iou : 0.625000 val_acc : 0.890589 train_acc : 0.875723
+[21:31:24.187] iteration : 4200  train_loss : 0.154771 train_iou : 0.666500 time : 3044  val_iou : 0.650000 val_acc : 0.888772 train_acc : 0.872409
+[21:33:47.501] iteration : 4400  train_loss : 0.178941 train_iou : 0.650500 time : 3187  val_iou : 0.593750 val_acc : 0.887895 train_acc : 0.869525
+[21:36:11.064] iteration : 4600  train_loss : 0.178647 train_iou : 0.664500 time : 3331  val_iou : 0.631250 val_acc : 0.882538 train_acc : 0.871060
+[21:38:34.425] iteration : 4800  train_loss : 0.126466 train_iou : 0.679750 time : 3474  val_iou : 0.612500 val_acc : 0.890395 train_acc : 0.885012
+[21:40:57.799] iteration : 5000  train_loss : 0.141024 train_iou : 0.656250 time : 3618  val_iou : 0.587500 val_acc : 0.871732 train_acc : 0.858316
+[21:43:21.208] iteration : 5200  train_loss : 0.140469 train_iou : 0.672250 time : 3761  val_iou : 0.593750 val_acc : 0.884550 train_acc : 0.875905
+[21:45:44.387] iteration : 5400  train_loss : 0.187305 train_iou : 0.652250 time : 3904  val_iou : 0.587500 val_acc : 0.854826 train_acc : 0.845045
+[21:48:06.938] iteration : 5600  train_loss : 0.127278 train_iou : 0.651250 time : 4047  val_iou : 0.581250 val_acc : 0.865203 train_acc : 0.851750
+[21:50:29.692] iteration : 5800  train_loss : 0.171364 train_iou : 0.679250 time : 4190  val_iou : 0.593750 val_acc : 0.889213 train_acc : 0.880426
+[21:52:52.404] iteration : 6000  train_loss : 0.074828 train_iou : 0.672750 time : 4332  val_iou : 0.606250 val_acc : 0.889548 train_acc : 0.873907
+[21:55:14.819] iteration : 6200  train_loss : 0.123662 train_iou : 0.667250 time : 4475  val_iou : 0.618750 val_acc : 0.896685 train_acc : 0.880649
+[21:57:37.263] iteration : 6400  train_loss : 0.154658 train_iou : 0.657000 time : 4617  val_iou : 0.593750 val_acc : 0.883118 train_acc : 0.864071
+[21:59:59.579] iteration : 6600  train_loss : 0.085799 train_iou : 0.681500 time : 4760  val_iou : 0.606250 val_acc : 0.895978 train_acc : 0.880478
+[22:02:21.894] iteration : 6800  train_loss : 0.128152 train_iou : 0.678250 time : 4902  val_iou : 0.612500 val_acc : 0.890246 train_acc : 0.882008
+[22:04:44.363] iteration : 7000  train_loss : 0.141472 train_iou : 0.677000 time : 5044  val_iou : 0.600000 val_acc : 0.891088 train_acc : 0.879244
+[22:07:07.015] iteration : 7200  train_loss : 0.165367 train_iou : 0.683500 time : 5187  val_iou : 0.643750 val_acc : 0.883681 train_acc : 0.876013
+[22:09:29.310] iteration : 7400  train_loss : 0.113044 train_iou : 0.681750 time : 5329  val_iou : 0.643750 val_acc : 0.905947 train_acc : 0.892830
+[22:11:52.003] iteration : 7600  train_loss : 0.123206 train_iou : 0.680000 time : 5472  val_iou : 0.612500 val_acc : 0.888689 train_acc : 0.880589
+[22:14:14.429] iteration : 7800  train_loss : 0.189347 train_iou : 0.683750 time : 5614  val_iou : 0.637500 val_acc : 0.884990 train_acc : 0.880560
+[22:16:36.724] iteration : 8000  train_loss : 0.072343 train_iou : 0.685000 time : 5757  val_iou : 0.618750 val_acc : 0.903142 train_acc : 0.890164
+[22:19:00.303] iteration : 8200  train_loss : 0.199425 train_iou : 0.680250 time : 5900  val_iou : 0.612500 val_acc : 0.891191 train_acc : 0.883786
+[22:21:23.863] iteration : 8400  train_loss : 0.261176 train_iou : 0.684750 time : 6044  val_iou : 0.625000 val_acc : 0.893031 train_acc : 0.883139
+[22:23:47.505] iteration : 8600  train_loss : 0.188244 train_iou : 0.678250 time : 6187  val_iou : 0.625000 val_acc : 0.890655 train_acc : 0.876251
+[22:26:11.288] iteration : 8800  train_loss : 0.135812 train_iou : 0.685750 time : 6331  val_iou : 0.625000 val_acc : 0.896270 train_acc : 0.890609
+[22:28:34.946] iteration : 9000  train_loss : 0.067501 train_iou : 0.678750 time : 6475  val_iou : 0.606250 val_acc : 0.892940 train_acc : 0.872323
+[22:30:58.713] iteration : 9200  train_loss : 0.110764 train_iou : 0.673500 time : 6619  val_iou : 0.581250 val_acc : 0.878032 train_acc : 0.869455
+[22:33:22.401] iteration : 9400  train_loss : 0.203062 train_iou : 0.686500 time : 6762  val_iou : 0.637500 val_acc : 0.892298 train_acc : 0.885650
+[22:35:45.989] iteration : 9600  train_loss : 0.132426 train_iou : 0.690000 time : 6906  val_iou : 0.606250 val_acc : 0.899559 train_acc : 0.896537
+[22:38:08.883] iteration : 9800  train_loss : 0.103803 train_iou : 0.684750 time : 7049  val_iou : 0.618750 val_acc : 0.894021 train_acc : 0.892420
+[22:40:31.872] iteration : 10000  train_loss : 0.103406 train_iou : 0.683250 time : 7192  val_iou : 0.606250 val_acc : 0.872968 train_acc : 0.862864
+[22:42:54.218] iteration : 10200  train_loss : 0.228979 train_iou : 0.681500 time : 7334  val_iou : 0.618750 val_acc : 0.885821 train_acc : 0.876428
+[22:45:17.201] iteration : 10400  train_loss : 0.118082 train_iou : 0.684750 time : 7477  val_iou : 0.612500 val_acc : 0.892508 train_acc : 0.881614
+[22:47:40.060] iteration : 10600  train_loss : 0.156703 train_iou : 0.692000 time : 7620  val_iou : 0.643750 val_acc : 0.886219 train_acc : 0.882843
+[22:50:03.024] iteration : 10800  train_loss : 0.129188 train_iou : 0.676500 time : 7763  val_iou : 0.612500 val_acc : 0.889702 train_acc : 0.886170
+[22:52:25.757] iteration : 11000  train_loss : 0.070423 train_iou : 0.663500 time : 7906  val_iou : 0.587500 val_acc : 0.865926 train_acc : 0.868758
+[22:54:48.409] iteration : 11200  train_loss : 0.140102 train_iou : 0.671750 time : 8048  val_iou : 0.587500 val_acc : 0.884845 train_acc : 0.872695
+[22:57:12.279] iteration : 11400  train_loss : 0.120756 train_iou : 0.683250 time : 8192  val_iou : 0.618750 val_acc : 0.881838 train_acc : 0.880637
+[22:59:36.054] iteration : 11600  train_loss : 0.081079 train_iou : 0.685250 time : 8336  val_iou : 0.606250 val_acc : 0.892736 train_acc : 0.884639
+[23:02:00.047] iteration : 11800  train_loss : 0.113817 train_iou : 0.691250 time : 8480  val_iou : 0.618750 val_acc : 0.897265 train_acc : 0.892847
+[23:04:23.982] iteration : 12000  train_loss : 0.173593 train_iou : 0.686250 time : 8624  val_iou : 0.593750 val_acc : 0.887826 train_acc : 0.880075
+[23:04:24.172] save model to ./weights/epoch_59.pth
+[23:06:48.199] iteration : 12200  train_loss : 0.125955 train_iou : 0.687000 time : 8768  val_iou : 0.593750 val_acc : 0.878681 train_acc : 0.879672
+[23:09:12.261] iteration : 12400  train_loss : 0.165988 train_iou : 0.678500 time : 8912  val_iou : 0.606250 val_acc : 0.874912 train_acc : 0.881085
+[23:11:36.247] iteration : 12600  train_loss : 0.084372 train_iou : 0.692750 time : 9056  val_iou : 0.612500 val_acc : 0.887387 train_acc : 0.894287
+[23:13:59.350] iteration : 12800  train_loss : 0.113610 train_iou : 0.676250 time : 9199  val_iou : 0.587500 val_acc : 0.877254 train_acc : 0.865215
+[23:16:22.480] iteration : 13000  train_loss : 0.244457 train_iou : 0.688500 time : 9342  val_iou : 0.606250 val_acc : 0.888024 train_acc : 0.881941
+[23:18:45.352] iteration : 13200  train_loss : 0.188504 train_iou : 0.696000 time : 9485  val_iou : 0.625000 val_acc : 0.899181 train_acc : 0.889193
+[23:21:08.633] iteration : 13400  train_loss : 0.071103 train_iou : 0.694250 time : 9629  val_iou : 0.618750 val_acc : 0.890724 train_acc : 0.889185
+[23:23:31.907] iteration : 13600  train_loss : 0.101965 train_iou : 0.691500 time : 9772  val_iou : 0.625000 val_acc : 0.888238 train_acc : 0.883993
+[23:25:54.568] iteration : 13800  train_loss : 0.144274 train_iou : 0.687250 time : 9915  val_iou : 0.593750 val_acc : 0.878541 train_acc : 0.877818
+[23:28:17.838] iteration : 14000  train_loss : 0.064509 train_iou : 0.682000 time : 10058  val_iou : 0.587500 val_acc : 0.875823 train_acc : 0.883131
+[23:28:18.019] save model to ./weights/epoch_69.pth
+[23:30:42.523] iteration : 14200  train_loss : 0.093989 train_iou : 0.692500 time : 10202  val_iou : 0.612500 val_acc : 0.885102 train_acc : 0.883085
+[23:33:04.473] iteration : 14400  train_loss : 0.069534 train_iou : 0.690250 time : 10344  val_iou : 0.600000 val_acc : 0.877986 train_acc : 0.874699
+[23:35:26.521] iteration : 14600  train_loss : 0.056326 train_iou : 0.682000 time : 10486  val_iou : 0.575000 val_acc : 0.887061 train_acc : 0.878975
+[23:37:48.445] iteration : 14800  train_loss : 0.123569 train_iou : 0.691000 time : 10628  val_iou : 0.606250 val_acc : 0.887965 train_acc : 0.882692
+[23:40:10.853] iteration : 15000  train_loss : 0.125103 train_iou : 0.685500 time : 10771  val_iou : 0.606250 val_acc : 0.878677 train_acc : 0.867746
+[23:42:32.559] iteration : 15200  train_loss : 0.096274 train_iou : 0.692000 time : 10913  val_iou : 0.593750 val_acc : 0.878132 train_acc : 0.874939
+[23:44:54.468] iteration : 15400  train_loss : 0.199972 train_iou : 0.693000 time : 11054  val_iou : 0.631250 val_acc : 0.887116 train_acc : 0.876679
+[23:47:16.300] iteration : 15600  train_loss : 0.060109 train_iou : 0.683750 time : 11196  val_iou : 0.600000 val_acc : 0.883088 train_acc : 0.865980
+[23:49:37.974] iteration : 15800  train_loss : 0.135229 train_iou : 0.688000 time : 11338  val_iou : 0.593750 val_acc : 0.897253 train_acc : 0.878084
+[23:51:59.601] iteration : 16000  train_loss : 0.136458 train_iou : 0.694250 time : 11480  val_iou : 0.593750 val_acc : 0.897434 train_acc : 0.887306
+[23:51:59.773] save model to ./weights/epoch_79.pth
+[23:54:22.149] iteration : 16200  train_loss : 0.110908 train_iou : 0.691000 time : 11622  val_iou : 0.625000 val_acc : 0.885743 train_acc : 0.879159
+[23:56:43.964] iteration : 16400  train_loss : 0.060764 train_iou : 0.695250 time : 11764  val_iou : 0.587500 val_acc : 0.894312 train_acc : 0.885990
+[23:59:05.701] iteration : 16600  train_loss : 0.113984 train_iou : 0.690250 time : 11906  val_iou : 0.600000 val_acc : 0.895162 train_acc : 0.877625
+[00:01:27.485] iteration : 16800  train_loss : 0.119370 train_iou : 0.690000 time : 12047  val_iou : 0.581250 val_acc : 0.879030 train_acc : 0.874905
+[00:03:49.032] iteration : 17000  train_loss : 0.176938 train_iou : 0.698500 time : 12189  val_iou : 0.618750 val_acc : 0.904817 train_acc : 0.893640
+[00:06:10.738] iteration : 17200  train_loss : 0.102783 train_iou : 0.684500 time : 12331  val_iou : 0.581250 val_acc : 0.881075 train_acc : 0.871629
+[00:08:32.397] iteration : 17400  train_loss : 0.104626 train_iou : 0.694000 time : 12472  val_iou : 0.593750 val_acc : 0.883354 train_acc : 0.875361
+[00:10:54.024] iteration : 17600  train_loss : 0.097919 train_iou : 0.698000 time : 12614  val_iou : 0.618750 val_acc : 0.893981 train_acc : 0.882666
+[00:13:15.762] iteration : 17800  train_loss : 0.076669 train_iou : 0.690500 time : 12756  val_iou : 0.581250 val_acc : 0.901653 train_acc : 0.883216
+[00:15:37.528] iteration : 18000  train_loss : 0.100033 train_iou : 0.694500 time : 12897  val_iou : 0.612500 val_acc : 0.893347 train_acc : 0.889861
+[00:15:37.716] save model to ./weights/epoch_89.pth
+[00:18:00.235] iteration : 18200  train_loss : 0.202966 train_iou : 0.690250 time : 13040  val_iou : 0.600000 val_acc : 0.892701 train_acc : 0.876879
+[00:20:26.022] iteration : 18400  train_loss : 0.125348 train_iou : 0.687500 time : 13186  val_iou : 0.587500 val_acc : 0.894302 train_acc : 0.884137
+[00:22:49.665] iteration : 18600  train_loss : 0.164317 train_iou : 0.697751 time : 13330  val_iou : 0.593750 val_acc : 0.896824 train_acc : 0.887649
+[00:25:11.316] iteration : 18800  train_loss : 0.238625 train_iou : 0.692250 time : 13471  val_iou : 0.618750 val_acc : 0.895648 train_acc : 0.884795
+[00:27:33.212] iteration : 19000  train_loss : 0.097795 train_iou : 0.696000 time : 13613  val_iou : 0.593750 val_acc : 0.895494 train_acc : 0.885903
+[00:29:54.842] iteration : 19200  train_loss : 0.139913 train_iou : 0.690500 time : 13755  val_iou : 0.625000 val_acc : 0.897451 train_acc : 0.886232
+[00:32:16.629] iteration : 19400  train_loss : 0.092565 train_iou : 0.694750 time : 13897  val_iou : 0.600000 val_acc : 0.892053 train_acc : 0.878495
+[00:34:38.495] iteration : 19600  train_loss : 0.070507 train_iou : 0.689250 time : 14038  val_iou : 0.575000 val_acc : 0.894584 train_acc : 0.882023
+[00:37:00.346] iteration : 19800  train_loss : 0.149643 train_iou : 0.695000 time : 14180  val_iou : 0.593750 val_acc : 0.892659 train_acc : 0.883535
+[00:39:22.076] iteration : 20000  train_loss : 0.168281 train_iou : 0.694000 time : 14322  val_iou : 0.606250 val_acc : 0.900453 train_acc : 0.883605
+[00:39:22.248] save model to ./weights/epoch_99.pth
+[00:39:22.435] save model to ./weights/epoch_99.pth
+[12:01:33.044] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:01:33.070] 200 iterations per epoch. 20000 max iterations 
+[12:04:01.431] iteration : 200  train_loss : 0.314173 train_iou : 0.000000 time : 148  val_iou : 0.000000 val_acc : 0.778125 train_acc : 0.682702
+[12:06:29.350] iteration : 400  train_loss : 0.177125 train_iou : 0.459250 time : 296  val_iou : 0.450000 val_acc : 0.784112 train_acc : 0.695000
+[12:08:53.729] iteration : 600  train_loss : 0.217403 train_iou : 0.570000 time : 440  val_iou : 0.556250 val_acc : 0.863201 train_acc : 0.816401
+[12:11:16.317] iteration : 800  train_loss : 0.177426 train_iou : 0.615500 time : 583  val_iou : 0.568750 val_acc : 0.902698 train_acc : 0.860797
+[12:13:38.540] iteration : 1000  train_loss : 0.133578 train_iou : 0.627500 time : 725  val_iou : 0.568750 val_acc : 0.880049 train_acc : 0.845670
+[12:16:00.025] iteration : 1200  train_loss : 0.091180 train_iou : 0.642750 time : 866  val_iou : 0.600000 val_acc : 0.883729 train_acc : 0.857331
+[12:18:21.628] iteration : 1400  train_loss : 0.069569 train_iou : 0.621500 time : 1008  val_iou : 0.581250 val_acc : 0.873143 train_acc : 0.838757
+[12:20:43.331] iteration : 1600  train_loss : 0.162385 train_iou : 0.617750 time : 1150  val_iou : 0.600000 val_acc : 0.875432 train_acc : 0.849941
+[12:23:05.515] iteration : 1800  train_loss : 0.221909 train_iou : 0.628750 time : 1292  val_iou : 0.581250 val_acc : 0.875704 train_acc : 0.851430
+[12:25:27.116] iteration : 2000  train_loss : 0.227574 train_iou : 0.593000 time : 1434  val_iou : 0.525000 val_acc : 0.901706 train_acc : 0.863158
+[12:27:50.524] iteration : 2200  train_loss : 0.122469 train_iou : 0.638250 time : 1577  val_iou : 0.587500 val_acc : 0.881136 train_acc : 0.858949
+[12:30:16.198] iteration : 2400  train_loss : 0.194239 train_iou : 0.661000 time : 1723  val_iou : 0.600000 val_acc : 0.885485 train_acc : 0.862179
+[12:32:41.513] iteration : 2600  train_loss : 0.156838 train_iou : 0.656750 time : 1868  val_iou : 0.625000 val_acc : 0.886019 train_acc : 0.870507
+[12:35:06.754] iteration : 2800  train_loss : 0.085502 train_iou : 0.668000 time : 2013  val_iou : 0.637500 val_acc : 0.889730 train_acc : 0.875403
+[12:37:30.479] iteration : 3000  train_loss : 0.139205 train_iou : 0.658750 time : 2157  val_iou : 0.606250 val_acc : 0.885765 train_acc : 0.867443
+[12:39:54.819] iteration : 3200  train_loss : 0.095077 train_iou : 0.660750 time : 2301  val_iou : 0.618750 val_acc : 0.903590 train_acc : 0.882832
+[12:42:23.196] iteration : 3400  train_loss : 0.162101 train_iou : 0.658750 time : 2450  val_iou : 0.600000 val_acc : 0.889584 train_acc : 0.872580
+[12:44:55.238] iteration : 3600  train_loss : 0.172562 train_iou : 0.614500 time : 2602  val_iou : 0.581250 val_acc : 0.862521 train_acc : 0.843489
+[12:47:19.151] iteration : 3800  train_loss : 0.091290 train_iou : 0.668500 time : 2746  val_iou : 0.612500 val_acc : 0.881637 train_acc : 0.866284
+[12:49:44.752] iteration : 4000  train_loss : 0.115578 train_iou : 0.674500 time : 2891  val_iou : 0.625000 val_acc : 0.890589 train_acc : 0.875723
+[12:52:10.192] iteration : 4200  train_loss : 0.154771 train_iou : 0.666500 time : 3037  val_iou : 0.650000 val_acc : 0.888772 train_acc : 0.872409
+[12:54:36.954] iteration : 4400  train_loss : 0.178941 train_iou : 0.650500 time : 3183  val_iou : 0.593750 val_acc : 0.887895 train_acc : 0.869525
+[12:57:03.088] iteration : 4600  train_loss : 0.178647 train_iou : 0.664500 time : 3330  val_iou : 0.631250 val_acc : 0.882538 train_acc : 0.871060
+[12:59:33.793] iteration : 4800  train_loss : 0.126466 train_iou : 0.679750 time : 3480  val_iou : 0.612500 val_acc : 0.890395 train_acc : 0.885012
+[13:01:57.965] iteration : 5000  train_loss : 0.141024 train_iou : 0.656250 time : 3624  val_iou : 0.587500 val_acc : 0.871732 train_acc : 0.858316
+[13:04:20.027] iteration : 5200  train_loss : 0.140469 train_iou : 0.672250 time : 3766  val_iou : 0.593750 val_acc : 0.884550 train_acc : 0.875905
+[13:06:42.835] iteration : 5400  train_loss : 0.187305 train_iou : 0.652250 time : 3909  val_iou : 0.587500 val_acc : 0.854826 train_acc : 0.845045
+[13:09:06.309] iteration : 5600  train_loss : 0.127278 train_iou : 0.651250 time : 4053  val_iou : 0.581250 val_acc : 0.865203 train_acc : 0.851750
+[13:11:31.197] iteration : 5800  train_loss : 0.171364 train_iou : 0.679250 time : 4198  val_iou : 0.593750 val_acc : 0.889213 train_acc : 0.880426
+[13:13:53.766] iteration : 6000  train_loss : 0.074828 train_iou : 0.672750 time : 4340  val_iou : 0.606250 val_acc : 0.889548 train_acc : 0.873907
+[13:16:16.860] iteration : 6200  train_loss : 0.123662 train_iou : 0.667250 time : 4483  val_iou : 0.618750 val_acc : 0.896685 train_acc : 0.880649
+[13:18:38.633] iteration : 6400  train_loss : 0.154658 train_iou : 0.657000 time : 4625  val_iou : 0.593750 val_acc : 0.883118 train_acc : 0.864071
+[13:21:00.405] iteration : 6600  train_loss : 0.085799 train_iou : 0.681500 time : 4767  val_iou : 0.606250 val_acc : 0.895978 train_acc : 0.880478
+[13:23:22.218] iteration : 6800  train_loss : 0.128152 train_iou : 0.678250 time : 4909  val_iou : 0.612500 val_acc : 0.890246 train_acc : 0.882008
+[13:25:43.990] iteration : 7000  train_loss : 0.141472 train_iou : 0.677000 time : 5050  val_iou : 0.600000 val_acc : 0.891088 train_acc : 0.879244
+[13:28:06.063] iteration : 7200  train_loss : 0.165367 train_iou : 0.683500 time : 5192  val_iou : 0.643750 val_acc : 0.883681 train_acc : 0.876013
+[13:30:27.916] iteration : 7400  train_loss : 0.113044 train_iou : 0.681750 time : 5334  val_iou : 0.643750 val_acc : 0.905947 train_acc : 0.892830
+[13:32:49.797] iteration : 7600  train_loss : 0.123206 train_iou : 0.680000 time : 5476  val_iou : 0.612500 val_acc : 0.888689 train_acc : 0.880589
+[13:35:11.756] iteration : 7800  train_loss : 0.189347 train_iou : 0.683750 time : 5618  val_iou : 0.637500 val_acc : 0.884990 train_acc : 0.880560
+[13:37:33.340] iteration : 8000  train_loss : 0.072343 train_iou : 0.685000 time : 5760  val_iou : 0.618750 val_acc : 0.903142 train_acc : 0.890164
+[13:39:55.246] iteration : 8200  train_loss : 0.199425 train_iou : 0.680250 time : 5902  val_iou : 0.612500 val_acc : 0.891191 train_acc : 0.883786
+[13:42:17.238] iteration : 8400  train_loss : 0.261176 train_iou : 0.684750 time : 6044  val_iou : 0.625000 val_acc : 0.893031 train_acc : 0.883139
+[13:44:39.128] iteration : 8600  train_loss : 0.188244 train_iou : 0.678250 time : 6186  val_iou : 0.625000 val_acc : 0.890655 train_acc : 0.876251
+[13:47:00.964] iteration : 8800  train_loss : 0.135812 train_iou : 0.685750 time : 6327  val_iou : 0.625000 val_acc : 0.896270 train_acc : 0.890609
+[13:49:22.626] iteration : 9000  train_loss : 0.067501 train_iou : 0.678750 time : 6469  val_iou : 0.606250 val_acc : 0.892940 train_acc : 0.872323
+[13:51:44.521] iteration : 9200  train_loss : 0.110764 train_iou : 0.673500 time : 6611  val_iou : 0.581250 val_acc : 0.878032 train_acc : 0.869455
+[13:54:06.403] iteration : 9400  train_loss : 0.203062 train_iou : 0.686500 time : 6753  val_iou : 0.637500 val_acc : 0.892298 train_acc : 0.885650
+[13:56:28.206] iteration : 9600  train_loss : 0.132426 train_iou : 0.690000 time : 6895  val_iou : 0.606250 val_acc : 0.899559 train_acc : 0.896537
+[13:58:49.945] iteration : 9800  train_loss : 0.103803 train_iou : 0.684750 time : 7036  val_iou : 0.618750 val_acc : 0.894021 train_acc : 0.892420
+[14:01:11.885] iteration : 10000  train_loss : 0.103406 train_iou : 0.683250 time : 7178  val_iou : 0.606250 val_acc : 0.872968 train_acc : 0.862864
+[14:03:33.485] iteration : 10200  train_loss : 0.228979 train_iou : 0.681500 time : 7320  val_iou : 0.618750 val_acc : 0.885821 train_acc : 0.876428
+[14:05:55.397] iteration : 10400  train_loss : 0.118082 train_iou : 0.684750 time : 7462  val_iou : 0.612500 val_acc : 0.892508 train_acc : 0.881614
+[14:08:17.201] iteration : 10600  train_loss : 0.156703 train_iou : 0.692000 time : 7604  val_iou : 0.643750 val_acc : 0.886219 train_acc : 0.882843
+[14:10:39.114] iteration : 10800  train_loss : 0.129188 train_iou : 0.676500 time : 7746  val_iou : 0.612500 val_acc : 0.889702 train_acc : 0.886170
+[14:13:01.106] iteration : 11000  train_loss : 0.070423 train_iou : 0.663500 time : 7888  val_iou : 0.587500 val_acc : 0.865926 train_acc : 0.868758
+[14:15:22.850] iteration : 11200  train_loss : 0.140102 train_iou : 0.671750 time : 8029  val_iou : 0.587500 val_acc : 0.884845 train_acc : 0.872695
+[14:17:44.638] iteration : 11400  train_loss : 0.120756 train_iou : 0.683250 time : 8171  val_iou : 0.618750 val_acc : 0.881838 train_acc : 0.880637
+[14:20:06.371] iteration : 11600  train_loss : 0.081079 train_iou : 0.685250 time : 8313  val_iou : 0.606250 val_acc : 0.892736 train_acc : 0.884639
+[14:22:28.202] iteration : 11800  train_loss : 0.113817 train_iou : 0.691250 time : 8455  val_iou : 0.618750 val_acc : 0.897265 train_acc : 0.892847
+[14:24:50.036] iteration : 12000  train_loss : 0.173593 train_iou : 0.686250 time : 8596  val_iou : 0.593750 val_acc : 0.887826 train_acc : 0.880075
+[14:24:50.224] save model to ./weights/epoch_59.pth
+[14:27:12.248] iteration : 12200  train_loss : 0.125955 train_iou : 0.687000 time : 8739  val_iou : 0.593750 val_acc : 0.878681 train_acc : 0.879672
+[14:29:33.875] iteration : 12400  train_loss : 0.165988 train_iou : 0.678500 time : 8880  val_iou : 0.606250 val_acc : 0.874912 train_acc : 0.881085
+[14:31:55.742] iteration : 12600  train_loss : 0.084372 train_iou : 0.692750 time : 9022  val_iou : 0.612500 val_acc : 0.887387 train_acc : 0.894287
+[14:34:17.533] iteration : 12800  train_loss : 0.113610 train_iou : 0.676250 time : 9164  val_iou : 0.587500 val_acc : 0.877254 train_acc : 0.865215
+[14:36:39.383] iteration : 13000  train_loss : 0.244457 train_iou : 0.688500 time : 9306  val_iou : 0.606250 val_acc : 0.888024 train_acc : 0.881941
+[14:39:01.126] iteration : 13200  train_loss : 0.188504 train_iou : 0.696000 time : 9448  val_iou : 0.625000 val_acc : 0.899181 train_acc : 0.889193
+[14:41:22.976] iteration : 13400  train_loss : 0.071103 train_iou : 0.694250 time : 9589  val_iou : 0.618750 val_acc : 0.890724 train_acc : 0.889185
+[14:43:44.608] iteration : 13600  train_loss : 0.101965 train_iou : 0.691500 time : 9731  val_iou : 0.625000 val_acc : 0.888238 train_acc : 0.883993
+[14:46:06.246] iteration : 13800  train_loss : 0.144274 train_iou : 0.687250 time : 9873  val_iou : 0.593750 val_acc : 0.878541 train_acc : 0.877818
+[14:48:28.159] iteration : 14000  train_loss : 0.064509 train_iou : 0.682000 time : 10015  val_iou : 0.587500 val_acc : 0.875823 train_acc : 0.883131
+[14:48:28.331] save model to ./weights/epoch_69.pth
+[14:50:50.131] iteration : 14200  train_loss : 0.093989 train_iou : 0.692500 time : 10157  val_iou : 0.612500 val_acc : 0.885102 train_acc : 0.883085
+[14:53:11.919] iteration : 14400  train_loss : 0.069534 train_iou : 0.690250 time : 10298  val_iou : 0.600000 val_acc : 0.877986 train_acc : 0.874699
+[14:55:33.752] iteration : 14600  train_loss : 0.056326 train_iou : 0.682000 time : 10440  val_iou : 0.575000 val_acc : 0.887061 train_acc : 0.878975
+[14:57:55.570] iteration : 14800  train_loss : 0.123569 train_iou : 0.691000 time : 10582  val_iou : 0.606250 val_acc : 0.887965 train_acc : 0.882692
+[15:00:17.409] iteration : 15000  train_loss : 0.125103 train_iou : 0.685500 time : 10724  val_iou : 0.606250 val_acc : 0.878677 train_acc : 0.867746
+[15:02:39.087] iteration : 15200  train_loss : 0.096274 train_iou : 0.692000 time : 10866  val_iou : 0.593750 val_acc : 0.878132 train_acc : 0.874939
+[15:05:00.798] iteration : 15400  train_loss : 0.199972 train_iou : 0.693000 time : 11007  val_iou : 0.631250 val_acc : 0.887116 train_acc : 0.876679
+[15:07:22.475] iteration : 15600  train_loss : 0.060109 train_iou : 0.683750 time : 11149  val_iou : 0.600000 val_acc : 0.883088 train_acc : 0.865980
+[15:09:44.199] iteration : 15800  train_loss : 0.135229 train_iou : 0.688000 time : 11291  val_iou : 0.593750 val_acc : 0.897253 train_acc : 0.878084
+[15:12:06.039] iteration : 16000  train_loss : 0.136458 train_iou : 0.694250 time : 11432  val_iou : 0.593750 val_acc : 0.897434 train_acc : 0.887306
+[15:12:06.211] save model to ./weights/epoch_79.pth
+[15:14:27.983] iteration : 16200  train_loss : 0.110908 train_iou : 0.691000 time : 11574  val_iou : 0.625000 val_acc : 0.885743 train_acc : 0.879159
+[15:16:49.928] iteration : 16400  train_loss : 0.060764 train_iou : 0.695250 time : 11716  val_iou : 0.587500 val_acc : 0.894312 train_acc : 0.885990
+[15:19:11.763] iteration : 16600  train_loss : 0.113984 train_iou : 0.690250 time : 11858  val_iou : 0.600000 val_acc : 0.895162 train_acc : 0.877625
+[15:21:33.692] iteration : 16800  train_loss : 0.119370 train_iou : 0.690000 time : 12000  val_iou : 0.581250 val_acc : 0.879030 train_acc : 0.874905
+[15:23:55.308] iteration : 17000  train_loss : 0.176938 train_iou : 0.698500 time : 12142  val_iou : 0.618750 val_acc : 0.904817 train_acc : 0.893640
+[15:26:17.172] iteration : 17200  train_loss : 0.102783 train_iou : 0.684500 time : 12284  val_iou : 0.581250 val_acc : 0.881075 train_acc : 0.871629
+[15:28:38.817] iteration : 17400  train_loss : 0.104626 train_iou : 0.694000 time : 12425  val_iou : 0.593750 val_acc : 0.883354 train_acc : 0.875361
+[15:31:00.468] iteration : 17600  train_loss : 0.097919 train_iou : 0.698000 time : 12567  val_iou : 0.618750 val_acc : 0.893981 train_acc : 0.882666
+[15:33:22.052] iteration : 17800  train_loss : 0.076669 train_iou : 0.690500 time : 12708  val_iou : 0.581250 val_acc : 0.901653 train_acc : 0.883216
+[15:35:43.797] iteration : 18000  train_loss : 0.100033 train_iou : 0.694500 time : 12850  val_iou : 0.612500 val_acc : 0.893347 train_acc : 0.889861
+[15:35:43.969] save model to ./weights/epoch_89.pth
+[15:38:05.634] iteration : 18200  train_loss : 0.202966 train_iou : 0.690250 time : 12992  val_iou : 0.600000 val_acc : 0.892701 train_acc : 0.876879
+[15:40:27.233] iteration : 18400  train_loss : 0.125348 train_iou : 0.687500 time : 13134  val_iou : 0.587500 val_acc : 0.894302 train_acc : 0.884137
+[15:42:48.864] iteration : 18600  train_loss : 0.164317 train_iou : 0.697751 time : 13275  val_iou : 0.593750 val_acc : 0.896824 train_acc : 0.887649
+[15:45:10.754] iteration : 18800  train_loss : 0.238625 train_iou : 0.692250 time : 13417  val_iou : 0.618750 val_acc : 0.895648 train_acc : 0.884795
+[15:47:33.224] iteration : 19000  train_loss : 0.097795 train_iou : 0.696000 time : 13560  val_iou : 0.593750 val_acc : 0.895494 train_acc : 0.885903
+[15:49:57.503] iteration : 19200  train_loss : 0.139913 train_iou : 0.690500 time : 13704  val_iou : 0.625000 val_acc : 0.897451 train_acc : 0.886232
+[15:52:19.598] iteration : 19400  train_loss : 0.092565 train_iou : 0.694750 time : 13846  val_iou : 0.600000 val_acc : 0.892053 train_acc : 0.878495
+[15:54:42.315] iteration : 19600  train_loss : 0.070507 train_iou : 0.689250 time : 13989  val_iou : 0.575000 val_acc : 0.894584 train_acc : 0.882023
+[15:57:07.144] iteration : 19800  train_loss : 0.149643 train_iou : 0.695000 time : 14134  val_iou : 0.593750 val_acc : 0.892659 train_acc : 0.883535
+[15:59:29.783] iteration : 20000  train_loss : 0.168281 train_iou : 0.694000 time : 14276  val_iou : 0.606250 val_acc : 0.900453 train_acc : 0.883605
+[15:59:29.956] save model to ./weights/epoch_99.pth
+[15:59:30.143] save model to ./weights/epoch_99.pth
+[17:44:45.503] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:44:45.530] 200 iterations per epoch. 20000 max iterations 
+[17:47:03.258] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:47:03.285] 200 iterations per epoch. 20000 max iterations 
+[17:48:12.248] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=4, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:48:12.273] 100 iterations per epoch. 10000 max iterations 
+[17:48:50.177] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:48:50.203] 200 iterations per epoch. 20000 max iterations 
+[17:50:11.574] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:50:11.599] 200 iterations per epoch. 20000 max iterations 
+[17:52:39.536] iteration : 200  train_loss : 0.314173 train_iou : 0.000000 time : 147  val_iou : 0.000000 val_acc : 0.778125 train_acc : 0.682702
+[17:53:44.112] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:53:44.137] 200 iterations per epoch. 20000 max iterations 
+[17:54:17.266] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:54:17.291] 200 iterations per epoch. 20000 max iterations 
+[17:54:37.260] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:54:37.287] 200 iterations per epoch. 20000 max iterations 
+[17:56:48.634] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[17:56:48.660] 200 iterations per epoch. 20000 max iterations 
+[18:02:10.020] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[18:02:10.046] 200 iterations per epoch. 20000 max iterations 
+[18:08:17.693] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[18:08:17.716] 200 iterations per epoch. 20000 max iterations 
+[18:11:44.900] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[18:11:44.932] 200 iterations per epoch. 20000 max iterations 
+[18:14:08.194] iteration : 200  train_loss : 0.314173 train_iou : 0.000000 time : 143  val_iou : 0.000000 val_acc : 0.778125 train_acc : 0.682702
+[18:16:34.971] iteration : 400  train_loss : 0.177125 train_iou : 0.459250 time : 290  val_iou : 0.450000 val_acc : 0.784112 train_acc : 0.695000
+[18:19:00.938] iteration : 600  train_loss : 0.217403 train_iou : 0.570000 time : 436  val_iou : 0.556250 val_acc : 0.863201 train_acc : 0.816401
+[18:21:33.713] iteration : 800  train_loss : 0.177426 train_iou : 0.615500 time : 588  val_iou : 0.568750 val_acc : 0.902698 train_acc : 0.860797
+[18:24:01.220] iteration : 1000  train_loss : 0.133578 train_iou : 0.627500 time : 736  val_iou : 0.568750 val_acc : 0.880049 train_acc : 0.845670
+[18:26:25.016] iteration : 1200  train_loss : 0.091180 train_iou : 0.642750 time : 880  val_iou : 0.600000 val_acc : 0.883729 train_acc : 0.857331
+[18:28:50.174] iteration : 1400  train_loss : 0.069569 train_iou : 0.621500 time : 1025  val_iou : 0.581250 val_acc : 0.873143 train_acc : 0.838757
+[18:31:16.017] iteration : 1600  train_loss : 0.162385 train_iou : 0.617750 time : 1171  val_iou : 0.600000 val_acc : 0.875432 train_acc : 0.849941
+[18:33:41.236] iteration : 1800  train_loss : 0.221909 train_iou : 0.628750 time : 1316  val_iou : 0.581250 val_acc : 0.875704 train_acc : 0.851430
+[18:36:04.463] iteration : 2000  train_loss : 0.227574 train_iou : 0.593000 time : 1459  val_iou : 0.525000 val_acc : 0.901706 train_acc : 0.863158
+[18:38:28.173] iteration : 2200  train_loss : 0.122469 train_iou : 0.638250 time : 1603  val_iou : 0.587500 val_acc : 0.881136 train_acc : 0.858949
+[18:40:51.281] iteration : 2400  train_loss : 0.194239 train_iou : 0.661000 time : 1746  val_iou : 0.600000 val_acc : 0.885485 train_acc : 0.862179
+[18:43:14.138] iteration : 2600  train_loss : 0.156838 train_iou : 0.656750 time : 1889  val_iou : 0.625000 val_acc : 0.886019 train_acc : 0.870507
+[18:45:37.375] iteration : 2800  train_loss : 0.085502 train_iou : 0.668000 time : 2032  val_iou : 0.637500 val_acc : 0.889730 train_acc : 0.875403
+[18:48:00.724] iteration : 3000  train_loss : 0.139205 train_iou : 0.658750 time : 2175  val_iou : 0.606250 val_acc : 0.885765 train_acc : 0.867443
+[18:50:24.205] iteration : 3200  train_loss : 0.095077 train_iou : 0.660750 time : 2319  val_iou : 0.618750 val_acc : 0.903590 train_acc : 0.882832
+[18:52:47.216] iteration : 3400  train_loss : 0.162101 train_iou : 0.658750 time : 2462  val_iou : 0.600000 val_acc : 0.889584 train_acc : 0.872580
+[18:55:09.750] iteration : 3600  train_loss : 0.172562 train_iou : 0.614500 time : 2604  val_iou : 0.581250 val_acc : 0.862521 train_acc : 0.843489
+[18:57:32.338] iteration : 3800  train_loss : 0.091290 train_iou : 0.668500 time : 2747  val_iou : 0.612500 val_acc : 0.881637 train_acc : 0.866284
+[18:59:54.403] iteration : 4000  train_loss : 0.115578 train_iou : 0.674500 time : 2889  val_iou : 0.625000 val_acc : 0.890589 train_acc : 0.875723
+[19:02:20.577] iteration : 4200  train_loss : 0.154771 train_iou : 0.666500 time : 3035  val_iou : 0.650000 val_acc : 0.888772 train_acc : 0.872409
+[19:04:48.764] iteration : 4400  train_loss : 0.178941 train_iou : 0.650500 time : 3183  val_iou : 0.593750 val_acc : 0.887895 train_acc : 0.869525
+[19:07:16.686] iteration : 4600  train_loss : 0.178647 train_iou : 0.664500 time : 3331  val_iou : 0.631250 val_acc : 0.882538 train_acc : 0.871060
+[19:09:40.286] iteration : 4800  train_loss : 0.126466 train_iou : 0.679750 time : 3475  val_iou : 0.612500 val_acc : 0.890395 train_acc : 0.885012
+[19:12:09.948] iteration : 5000  train_loss : 0.141024 train_iou : 0.656250 time : 3625  val_iou : 0.587500 val_acc : 0.871732 train_acc : 0.858316
+[19:14:36.574] iteration : 5200  train_loss : 0.140469 train_iou : 0.672250 time : 3771  val_iou : 0.593750 val_acc : 0.884550 train_acc : 0.875905
+[19:17:02.327] iteration : 5400  train_loss : 0.187305 train_iou : 0.652250 time : 3917  val_iou : 0.587500 val_acc : 0.854826 train_acc : 0.845045
+[19:19:29.291] iteration : 5600  train_loss : 0.127278 train_iou : 0.651250 time : 4064  val_iou : 0.581250 val_acc : 0.865203 train_acc : 0.851750
+[19:21:56.240] iteration : 5800  train_loss : 0.171364 train_iou : 0.679250 time : 4211  val_iou : 0.593750 val_acc : 0.889213 train_acc : 0.880426
+[19:24:21.414] iteration : 6000  train_loss : 0.074828 train_iou : 0.672750 time : 4356  val_iou : 0.606250 val_acc : 0.889548 train_acc : 0.873907
+[19:26:48.249] iteration : 6200  train_loss : 0.123662 train_iou : 0.667250 time : 4503  val_iou : 0.618750 val_acc : 0.896685 train_acc : 0.880649
+[19:29:13.882] iteration : 6400  train_loss : 0.154658 train_iou : 0.657000 time : 4648  val_iou : 0.593750 val_acc : 0.883118 train_acc : 0.864071
+[19:31:37.177] iteration : 6600  train_loss : 0.085799 train_iou : 0.681500 time : 4792  val_iou : 0.606250 val_acc : 0.895978 train_acc : 0.880478
+[19:34:01.257] iteration : 6800  train_loss : 0.128152 train_iou : 0.678250 time : 4936  val_iou : 0.612500 val_acc : 0.890246 train_acc : 0.882008
+[19:36:25.584] iteration : 7000  train_loss : 0.141472 train_iou : 0.677000 time : 5080  val_iou : 0.600000 val_acc : 0.891088 train_acc : 0.879244
+[19:38:50.058] iteration : 7200  train_loss : 0.165367 train_iou : 0.683500 time : 5225  val_iou : 0.643750 val_acc : 0.883681 train_acc : 0.876013
+[19:41:13.145] iteration : 7400  train_loss : 0.113044 train_iou : 0.681750 time : 5368  val_iou : 0.643750 val_acc : 0.905947 train_acc : 0.892830
+[19:43:37.480] iteration : 7600  train_loss : 0.123206 train_iou : 0.680000 time : 5512  val_iou : 0.612500 val_acc : 0.888689 train_acc : 0.880589
+[19:46:02.666] iteration : 7800  train_loss : 0.189347 train_iou : 0.683750 time : 5657  val_iou : 0.637500 val_acc : 0.884990 train_acc : 0.880560
+[19:48:28.994] iteration : 8000  train_loss : 0.072343 train_iou : 0.685000 time : 5804  val_iou : 0.618750 val_acc : 0.903142 train_acc : 0.890164
+[19:50:53.398] iteration : 8200  train_loss : 0.199425 train_iou : 0.680250 time : 5948  val_iou : 0.612500 val_acc : 0.891191 train_acc : 0.883786
+[19:53:20.197] iteration : 8400  train_loss : 0.261176 train_iou : 0.684750 time : 6095  val_iou : 0.625000 val_acc : 0.893031 train_acc : 0.883139
+[19:55:44.630] iteration : 8600  train_loss : 0.188244 train_iou : 0.678250 time : 6239  val_iou : 0.625000 val_acc : 0.890655 train_acc : 0.876251
+[19:58:07.903] iteration : 8800  train_loss : 0.135812 train_iou : 0.685750 time : 6382  val_iou : 0.625000 val_acc : 0.896270 train_acc : 0.890609
+[20:00:31.639] iteration : 9000  train_loss : 0.067501 train_iou : 0.678750 time : 6526  val_iou : 0.606250 val_acc : 0.892940 train_acc : 0.872323
+[20:02:55.629] iteration : 9200  train_loss : 0.110764 train_iou : 0.673500 time : 6670  val_iou : 0.581250 val_acc : 0.878032 train_acc : 0.869455
+[20:05:19.008] iteration : 9400  train_loss : 0.203062 train_iou : 0.686500 time : 6814  val_iou : 0.637500 val_acc : 0.892298 train_acc : 0.885650
+[20:07:42.236] iteration : 9600  train_loss : 0.132426 train_iou : 0.690000 time : 6957  val_iou : 0.606250 val_acc : 0.899559 train_acc : 0.896537
+[20:10:05.409] iteration : 9800  train_loss : 0.103803 train_iou : 0.684750 time : 7100  val_iou : 0.618750 val_acc : 0.894021 train_acc : 0.892420
+[20:12:28.699] iteration : 10000  train_loss : 0.103406 train_iou : 0.683250 time : 7243  val_iou : 0.606250 val_acc : 0.872968 train_acc : 0.862864
+[20:14:51.037] iteration : 10200  train_loss : 0.228979 train_iou : 0.681500 time : 7386  val_iou : 0.618750 val_acc : 0.885821 train_acc : 0.876428
+[20:17:13.798] iteration : 10400  train_loss : 0.118082 train_iou : 0.684750 time : 7528  val_iou : 0.612500 val_acc : 0.892508 train_acc : 0.881614
+[20:19:36.158] iteration : 10600  train_loss : 0.156703 train_iou : 0.692000 time : 7671  val_iou : 0.643750 val_acc : 0.886219 train_acc : 0.882843
+[20:21:58.734] iteration : 10800  train_loss : 0.129188 train_iou : 0.676500 time : 7813  val_iou : 0.612500 val_acc : 0.889702 train_acc : 0.886170
+[20:24:21.081] iteration : 11000  train_loss : 0.070423 train_iou : 0.663500 time : 7956  val_iou : 0.587500 val_acc : 0.865926 train_acc : 0.868758
+[20:26:43.728] iteration : 11200  train_loss : 0.140102 train_iou : 0.671750 time : 8098  val_iou : 0.587500 val_acc : 0.884845 train_acc : 0.872695
+[20:29:08.814] iteration : 11400  train_loss : 0.120756 train_iou : 0.683250 time : 8243  val_iou : 0.618750 val_acc : 0.881838 train_acc : 0.880637
+[20:31:35.568] iteration : 11600  train_loss : 0.081079 train_iou : 0.685250 time : 8390  val_iou : 0.606250 val_acc : 0.892736 train_acc : 0.884639
+[20:34:00.524] iteration : 11800  train_loss : 0.113817 train_iou : 0.691250 time : 8535  val_iou : 0.618750 val_acc : 0.897265 train_acc : 0.892847
+[20:36:28.546] iteration : 12000  train_loss : 0.173593 train_iou : 0.686250 time : 8683  val_iou : 0.593750 val_acc : 0.887826 train_acc : 0.880075
+[20:36:28.796] save model to ./weights/epoch_59.pth
+[20:38:55.759] iteration : 12200  train_loss : 0.125955 train_iou : 0.687000 time : 8830  val_iou : 0.593750 val_acc : 0.878681 train_acc : 0.879672
+[20:41:25.588] iteration : 12400  train_loss : 0.165988 train_iou : 0.678500 time : 8980  val_iou : 0.606250 val_acc : 0.874912 train_acc : 0.881085
+[20:43:50.348] iteration : 12600  train_loss : 0.084372 train_iou : 0.692750 time : 9125  val_iou : 0.612500 val_acc : 0.887387 train_acc : 0.894287
+[20:46:15.216] iteration : 12800  train_loss : 0.113610 train_iou : 0.676250 time : 9270  val_iou : 0.587500 val_acc : 0.877254 train_acc : 0.865215
+[20:48:45.538] iteration : 13000  train_loss : 0.244457 train_iou : 0.688500 time : 9420  val_iou : 0.606250 val_acc : 0.888024 train_acc : 0.881941
+[20:51:16.144] iteration : 13200  train_loss : 0.188504 train_iou : 0.696000 time : 9571  val_iou : 0.625000 val_acc : 0.899181 train_acc : 0.889193
+[20:53:44.617] iteration : 13400  train_loss : 0.071103 train_iou : 0.694250 time : 9719  val_iou : 0.618750 val_acc : 0.890724 train_acc : 0.889185
+[20:56:12.951] iteration : 13600  train_loss : 0.101965 train_iou : 0.691500 time : 9868  val_iou : 0.625000 val_acc : 0.888238 train_acc : 0.883993
+[20:58:40.101] iteration : 13800  train_loss : 0.144274 train_iou : 0.687250 time : 10015  val_iou : 0.593750 val_acc : 0.878541 train_acc : 0.877818
+[21:01:06.232] iteration : 14000  train_loss : 0.064509 train_iou : 0.682000 time : 10161  val_iou : 0.587500 val_acc : 0.875823 train_acc : 0.883131
+[21:01:06.426] save model to ./weights/epoch_69.pth
+[21:03:31.814] iteration : 14200  train_loss : 0.093989 train_iou : 0.692500 time : 10306  val_iou : 0.612500 val_acc : 0.885102 train_acc : 0.883085
+[21:05:56.673] iteration : 14400  train_loss : 0.069534 train_iou : 0.690250 time : 10451  val_iou : 0.600000 val_acc : 0.877986 train_acc : 0.874699
+[21:08:21.476] iteration : 14600  train_loss : 0.056326 train_iou : 0.682000 time : 10596  val_iou : 0.575000 val_acc : 0.887061 train_acc : 0.878975
+[21:10:46.956] iteration : 14800  train_loss : 0.123569 train_iou : 0.691000 time : 10742  val_iou : 0.606250 val_acc : 0.887965 train_acc : 0.882692
+[21:13:12.005] iteration : 15000  train_loss : 0.125103 train_iou : 0.685500 time : 10887  val_iou : 0.606250 val_acc : 0.878677 train_acc : 0.867746
+[21:15:36.263] iteration : 15200  train_loss : 0.096274 train_iou : 0.692000 time : 11031  val_iou : 0.593750 val_acc : 0.878132 train_acc : 0.874939
+[21:18:01.373] iteration : 15400  train_loss : 0.199972 train_iou : 0.693000 time : 11176  val_iou : 0.631250 val_acc : 0.887116 train_acc : 0.876679
+[21:20:27.219] iteration : 15600  train_loss : 0.060109 train_iou : 0.683750 time : 11322  val_iou : 0.600000 val_acc : 0.883088 train_acc : 0.865980
+[21:22:51.382] iteration : 15800  train_loss : 0.135229 train_iou : 0.688000 time : 11466  val_iou : 0.593750 val_acc : 0.897253 train_acc : 0.878084
+[21:25:16.715] iteration : 16000  train_loss : 0.136458 train_iou : 0.694250 time : 11611  val_iou : 0.593750 val_acc : 0.897434 train_acc : 0.887306
+[21:25:16.902] save model to ./weights/epoch_79.pth
+[21:27:42.005] iteration : 16200  train_loss : 0.110908 train_iou : 0.691000 time : 11757  val_iou : 0.625000 val_acc : 0.885743 train_acc : 0.879159
+[21:30:09.483] iteration : 16400  train_loss : 0.060764 train_iou : 0.695250 time : 11904  val_iou : 0.587500 val_acc : 0.894312 train_acc : 0.885990
+[21:32:36.997] iteration : 16600  train_loss : 0.113984 train_iou : 0.690250 time : 12052  val_iou : 0.600000 val_acc : 0.895162 train_acc : 0.877625
+[21:35:02.729] iteration : 16800  train_loss : 0.119370 train_iou : 0.690000 time : 12197  val_iou : 0.581250 val_acc : 0.879030 train_acc : 0.874905
+[21:37:26.726] iteration : 17000  train_loss : 0.176938 train_iou : 0.698500 time : 12341  val_iou : 0.618750 val_acc : 0.904817 train_acc : 0.893640
+[21:39:54.188] iteration : 17200  train_loss : 0.102783 train_iou : 0.684500 time : 12489  val_iou : 0.581250 val_acc : 0.881075 train_acc : 0.871629
+[21:42:19.682] iteration : 17400  train_loss : 0.104626 train_iou : 0.694000 time : 12634  val_iou : 0.593750 val_acc : 0.883354 train_acc : 0.875361
+[21:44:44.085] iteration : 17600  train_loss : 0.097919 train_iou : 0.698000 time : 12779  val_iou : 0.618750 val_acc : 0.893981 train_acc : 0.882666
+[21:47:05.997] iteration : 17800  train_loss : 0.076669 train_iou : 0.690500 time : 12921  val_iou : 0.581250 val_acc : 0.901653 train_acc : 0.883216
+[21:49:27.774] iteration : 18000  train_loss : 0.100033 train_iou : 0.694500 time : 13062  val_iou : 0.612500 val_acc : 0.893347 train_acc : 0.889861
+[21:49:27.946] save model to ./weights/epoch_89.pth
+[21:51:49.845] iteration : 18200  train_loss : 0.202966 train_iou : 0.690250 time : 13204  val_iou : 0.600000 val_acc : 0.892701 train_acc : 0.876879
+[21:54:11.576] iteration : 18400  train_loss : 0.125348 train_iou : 0.687500 time : 13346  val_iou : 0.587500 val_acc : 0.894302 train_acc : 0.884137
+[21:56:33.273] iteration : 18600  train_loss : 0.164317 train_iou : 0.697751 time : 13488  val_iou : 0.593750 val_acc : 0.896824 train_acc : 0.887649
+[21:58:55.320] iteration : 18800  train_loss : 0.238625 train_iou : 0.692250 time : 13630  val_iou : 0.618750 val_acc : 0.895648 train_acc : 0.884795
+[22:01:17.745] iteration : 19000  train_loss : 0.097795 train_iou : 0.696000 time : 13772  val_iou : 0.593750 val_acc : 0.895494 train_acc : 0.885903
+[22:03:41.615] iteration : 19200  train_loss : 0.139913 train_iou : 0.690500 time : 13916  val_iou : 0.625000 val_acc : 0.897451 train_acc : 0.886232
+[22:06:05.627] iteration : 19400  train_loss : 0.092565 train_iou : 0.694750 time : 14060  val_iou : 0.600000 val_acc : 0.892053 train_acc : 0.878495
+[22:08:29.538] iteration : 19600  train_loss : 0.070507 train_iou : 0.689250 time : 14204  val_iou : 0.575000 val_acc : 0.894584 train_acc : 0.882023
+[22:10:53.367] iteration : 19800  train_loss : 0.149643 train_iou : 0.695000 time : 14348  val_iou : 0.593750 val_acc : 0.892659 train_acc : 0.883535
+[22:13:17.247] iteration : 20000  train_loss : 0.168281 train_iou : 0.694000 time : 14492  val_iou : 0.606250 val_acc : 0.900453 train_acc : 0.883605
+[22:13:17.441] save model to ./weights/epoch_99.pth
+[22:13:17.626] save model to ./weights/epoch_99.pth
+[11:46:24.621] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:46:24.653] 200 iterations per epoch. 20000 max iterations 
+[11:47:19.719] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:47:19.751] 200 iterations per epoch. 20000 max iterations 
+[11:47:38.120] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:47:38.144] 200 iterations per epoch. 20000 max iterations 
+[11:47:53.105] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:47:53.129] 200 iterations per epoch. 20000 max iterations 
+[11:50:31.767] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:50:31.791] 200 iterations per epoch. 20000 max iterations 
+[11:58:38.883] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:58:38.915] 200 iterations per epoch. 20000 max iterations 
+[11:59:43.429] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[11:59:43.461] 200 iterations per epoch. 20000 max iterations 
+[12:02:05.845] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:02:05.869] 200 iterations per epoch. 20000 max iterations 
+[12:02:57.660] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:02:57.684] 200 iterations per epoch. 20000 max iterations 
+[12:05:43.532] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:05:43.556] 200 iterations per epoch. 20000 max iterations 
+[12:09:18.306] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:09:18.332] 200 iterations per epoch. 20000 max iterations 
+[12:09:51.191] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:09:51.216] 200 iterations per epoch. 20000 max iterations 
+[12:12:21.311] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:12:21.337] 200 iterations per epoch. 20000 max iterations 
+[12:14:14.232] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:14:14.258] 200 iterations per epoch. 20000 max iterations 
+[12:14:40.429] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:14:40.454] 200 iterations per epoch. 20000 max iterations 
+[12:15:54.021] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:15:54.046] 200 iterations per epoch. 20000 max iterations 
+[12:17:33.965] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.0001, batch_size=2, cache_mode='part', cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', dataset='Synapse', deterministic=1, eval=False, img_size=512, list_dir='./lists/lists_Synapse', max_epochs=100, max_iterations=10000, n_gpu=1, num_classes=1, opts=None, output_dir='./weights/', resume=None, root_path='./data/build512/', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[12:17:33.990] 200 iterations per epoch. 20000 max iterations 
